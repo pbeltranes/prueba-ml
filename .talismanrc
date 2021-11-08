@@ -1,0 +1,18 @@
+fileignoreconfig:
+- filename: mercado-libre-ui/.env
+  checksum: bb78efd4b28262976c90bdfdf90c5b50577337caba84dd81cb5c5f566ab02b9c
+- filename: mercado-libre-ui/next-env.d.ts
+  checksum: bd25fb8158259b0be8741a2d29ae1ce07cd2f5d5ac53fc612b6f7ae863c1a5a1
+- filename: mercado-libre-bff/package-lock.json
+  checksum: 02b127e9a563cc3ba3d343803e53e66160416c30895ad0c7f511ef1a2ac33ccd
+- filename: mercado-libre-ui/package-lock.json
+  checksum: 0df9ede948e1a219b701087a76c08e6af49bf8fa849db1ca9b4dac4ee4a2b5fb
+- filename: mercado-libre-ui/yarn.lock
+  checksum: 9c25aecf32e9c2acb2df4642695e035948455d90774f2bc05208cb86540c32c0
+- filename: mercado-libre-bff/src/app/bff.ts
+  checksum: 4bd5df0d3bb9198a59a6c7dbc1cab712cf07461991ffc5bf5932dd6ed3e4c72e
+- filename: mercado-libre-bff/src/entities/entities.ts
+  checksum: 76e684fce2ccb1ef3c73611d62dce9c6fbceaa2c8471fe00dbee5907aa8485c1
+- filename: mercado-libre-bff/src/helpers/helpers.ts
+  checksum: 68bec7d55c63ea829ea52c7e2c8affa5a31ec901382f6c02cbb87a03a3ca8917
+version: ""

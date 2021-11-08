@@ -3,7 +3,7 @@ import { getProductDetail, getSearch } from "../app/bff";
 
 export const register = (app: express.Application) => {
   app.get("/", (req: express.Request, res: express.Response) => {
-    res.send("Hello world!");
+    res.send("Heart beat!");
   });
 
   app.get("/api/items", (req: express.Request, res: express.Response) => {

@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 const Product: any = ({ product }: InferProps<typeof Product.propTypes>) => {
   const { id, image, price, title, owner } = product;
-  console.log(id);
   return (
     <div className="container card columns is-centered general is-mobile">
       <div className="thumbnail column is-3 ">

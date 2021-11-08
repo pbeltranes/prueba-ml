@@ -6,15 +6,8 @@ import { IS_NEW, LABELS } from "../lib/constants";
 const ProductDetail: any = ({
   details,
 }: InferProps<typeof ProductDetail.propTypes>) => {
-  const {
-    picture,
-    title,
-    price,
-    description,
-    condition,
-    soldQuantity,
-    freeShipping,
-  } = details;
+  const { picture, title, price, description, condition, soldQuantity } =
+    details;
 
   const labelState = condition === IS_NEW ? LABELS.ES_NUEVO : LABELS.ES_USADO;
   return (

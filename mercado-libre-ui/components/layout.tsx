@@ -6,7 +6,6 @@ import Searchbar from "./searchbar";
 import Breadcrumb from "./beadcrumb";
 const Layout = ({
   children,
-  home,
 }: {
   children: React.ReactNode;
   home?: boolean;

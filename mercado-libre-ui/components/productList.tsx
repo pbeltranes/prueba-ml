@@ -10,7 +10,6 @@ interface IProduct {
   title: string;
 }
 const ProductList = ({ products }: InferProps<typeof Product.propTypes>) => {
-  console.log("Here de producrs", products);
   return (
     <div>
       {products.map((product: IProduct) => {
